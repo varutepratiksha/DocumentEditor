@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://satyanandgupta845:Docify24@cluster0.pusn8.mongodb.net/?appName=Cluster0")
-.then(console.log("Connected"))
-.catch((error)=> console.log(error))
+mongoose.connect("mongodb+srv://pratikshavarute05_db_user:document@123@documenteditor.r01zxdn.mongodb.net/?appName=DocumentEditor")
+
+  .then(console.log("Connected"))
+  .catch((error) => console.log(error))
 
 const docSchema = mongoose.Schema({
   title: String,
